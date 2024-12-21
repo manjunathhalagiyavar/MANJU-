@@ -1,22 +1,4 @@
-5. Consider the following database of student enrolment in courses and books adopted each course.
-STUDENT(regno: string, name:string, major: string, bdate: date)
-COURSE (course: int, cname: string, dept: string)
-ENROLL (#regno: string, course#:int, sem: int marks:int)
-TEXT(book-ISBN: int,book-title: string, publisher: string, author:string) 
-BOOK_ADOPTION (course#:int, sem:int, book-ISBN#:int)
-Create the above tables by properly specifying the primary keys and the foreign Keys
-Enter at least five tuples for each relation.
-Write SQL queries to
-i. Demonstrate how you add a textbook to the database and make this book be adapted by some
-department.
-ii. Produce list of textbooks (include Course#, Book-ISBN, Book-title) in the alphabetical order for
-courses offered by the CS department that use more than two books.
-iii. List any department that has its adopted books published by a specific publisher.
-Write PL/SQL program to demonstrate user defined exception handling.
-
-
-
-5. Consider the following database of student enrolment in courses and books adopted each course.
+5.book adopted 
 
 1) STUDENT(regno: string, name:string, major: string, bdate: date)
 
